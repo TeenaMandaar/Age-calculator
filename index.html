@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> <!-- Lottie Player Script -->
+
+</head>
+<body>
+    <div class="main">
+        <div class="animation">
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    
+        <dotlottie-player src="https://lottie.host/00ef3c6f-4e5b-45c6-85ec-6eff75ad3b11/hKl0l8j3Di.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+    </div>
+    <div class="details">
+        <div>
+            <p id="Input">Date of Birth</p>
+            <input type="date" id="DOB" class="Data" >
+        </div>
+    </div>
+    <div class="Cal-Data">
+        <div class="cal">
+            <input type="text" id="Cal-day" class="Data" placeholder="DD">
+            <p>days</p>
+        </div>
+        <div class="cal">
+            <input type="text" id="Cal-month" class="Data" placeholder="MM">
+            <p>month</p>
+        </div>
+        <div class="cal" >
+            <input type="text" id="Cal-year" class="Data" placeholder="YYYY">
+            <p>years</p>
+        </div>
+        </div>
+        <div class="btn">
+            <button class="button">CALCULATE</button>
+        </div>   
+</div> 
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
